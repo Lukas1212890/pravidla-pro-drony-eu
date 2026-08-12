@@ -23,8 +23,8 @@ jobs:
           set -euo pipefail
           cat .repo-import/z00 .repo-import/z01 .repo-import/z02 .repo-import/z03 \
               .repo-import/z04 .repo-import/z05 .repo-import/z06 .repo-import/z07 \
-              .repo-import/z08 .repo-import/z08_tail .repo-import/z09 .repo-import/z10 \
-              .repo-import/z11_15 .repo-import/z11tail_a .repo-import/z11tail_b \
+              .repo-import/z08 .repo-import/z09 .repo-import/z10 \
+              .repo-import/c11 .repo-import/c12 .repo-import/c13 .repo-import/c14 .repo-import/c15 \
               > /tmp/runtime.b64
           test "$(wc -c < /tmp/runtime.b64)" -eq 122760
           base64 --decode /tmp/runtime.b64 > /tmp/runtime-only.zip
