@@ -1,0 +1,6 @@
+{
+  "name": "Pravidla pro drony v EU",
+  "description": "Kompletní přehled a průvodce pravidly pro létání s drony v zemích EU, kalkulátor kategorií, import Word dokumentů a AI asistent pro legislativu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
